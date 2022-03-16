@@ -8,3 +8,10 @@ def add(number1, number2):
 
 
 print(add(number1, number2))
+
+word = input()
+
+
+
+def check_letter_a(word):
+    pass
