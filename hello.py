@@ -14,7 +14,7 @@ word = input()
 
 def check_letter(word):
     word_counter = 0
-    for letter in word:
+    for letter in word.lower():
         if letter == 'a':
             word_counter += 1
     return word_counter
