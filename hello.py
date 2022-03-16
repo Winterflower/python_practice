@@ -12,6 +12,12 @@ print(add(number1, number2))
 word = input()
 
 
+def check_letter(word):
+    word_counter = 0
+    for letter in word.lower():
+        if letter == 'a':
+            word_counter += 1
+    return word_counter
 
-def check_letter_a(word):
-    pass
+
+print(f'The letter a appears {check_letter(word)} times in the word {word}')
